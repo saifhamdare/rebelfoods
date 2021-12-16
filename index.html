@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RebelFood</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Jost:400,500,600,700&amp;display=swap&amp;ver=1607580870">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/properties.css">
+  <!-- slick carousel link -->
+  <link rel="stylesheet" href="./slick-carousel/slick/slick/slick.css">
+  <link rel="stylesheet" href="./slick-carousel/slick/slick/slick-theme.css">
+</head>
+
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark rebel-primary-text  ">
+    <div class="container-fluid overlay" id="myNav">
+      <a class="navbar-brand pl-2 pt-2" href="#"><img src="assets/Icons/Group 4538.svg"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="close-icon py-1 text-start"><i class="fas fa-bars"></i></span>
+      </button> -->
+   
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-transparent  text-danger d-lg-none close-modal " data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog    modal-fullscreen-md-down ">
+    <div class="modal-content text-white bg-dark">
+    <div class="text-end close-modal">
+      <button type="button" class="btn text-white " data-bs-dismiss="modal" >
+        <img src="assets/icons/cancel.png" alt="">
+      </button>
+
+    </div>
+    
+     
+      <div class="modal-body">
+        <ul class="navbar-nav primary-padding mt-20 ">
+          <li class="nav-item text-white ">
+            <a class="nav-link  px-3 mr-5 text-white " aria-current="page" href="#"><span class="mr-1 text-white">I</span>Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link px-3 mr-5 text-white " aria-current="page" href="#"><span class="mr-1 text-danger">I</span>What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-5 text-white" aria-current="page" href="#"><span class="mr-1 text-dblue">I</span>Who Are We</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-5 text-white" aria-current="page" href="#"><span class="mr-1 text-warning">I</span>Be A Rebel</a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="nav-link px-3 mr-5 text-white dropdown" aria-current="page" href="#"><span class="mr-1 text-danger">I</span>Partner With Us </div>
+            <ul class="dropdown-list">
+              
+              <li><a href="#"><span class="mr-1 text-danger">I</span>Launcher</a></li>
+              <li><a href="#"><span class="mr-1 text-danger">I</span>Wildfire</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-5 text-white" aria-current="page" href="#"><span class="mr-1 text-success">I</span>Rebel Spirit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-10 text-white" aria-current="page" href="#"><span class="mr-1 text-danger">I</span>News</a>
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+
+      <div class="navbar1 collapse navbar-collapse rebel-primary-text" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item nav1">
+            <a class="nav-link px-3 mr-5  " aria-current="page" href="#">What We Do</a>
+          </li>
+          <li class="nav-item nav2">
+            <a class="nav-link px-3 mr-5 " aria-current="page" href="#">Who Are We</a>
+
+          </li>
+          <li class="nav-item nav3">
+            <a class="nav-link px-3 mr-5 " aria-current="page" href="#">Be A Rebel</a>
+          </li>
+          <li class="nav-item nav4 dropdown ">
+            <div class="nav-link px-3 mr-5  dropdown" aria-current="page" href="#">Partner With Us </div>
+            <ul class="dropdown-menu">
+              <li><a href="#"></a></li>
+              <li><a href="#">Launcher</a></li>
+              <li><a href="#">Wildfire</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-5 nav5" aria-current="page" href="#">Rebel Spirit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 mr-10 nav6" aria-current="page" href="#">News</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="primary-padding">
+    <!-- section 1 -->
+    <section class="primary-section d-flex align-items-center pt-10 pt-md-0 pt-lg-10 section-1">
+      <div class="bg-dark">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-10 text-center mb-15 mb-lg-0 px-0 px-lg-5">
+            <img class="pan-img" src="assets/icons/Group 4629.svg">
+          </div>
+          <div class="col-lg-6 col-sm-12 px-0 px-lg-5">
+            <div>
+              <h1 class="red-color outlined-text mb-2">Rebel <br> WildFire</h1>
+              <h3 class="text-white rebel-primary-text fw-light mb-3">“Expand your food business with world’s largest
+                Internet Restaurant company”</h3>
+              <p class="text-white rebel-secondary-text">Wildfire helps you launch our portfolio of virtual brands in
+                your existing restaurant to leverage the existing capacity and earn profits from the very first day of
+                operations. We help you multiply revenues by simply utilizing your infrastructure and manpower better
+                and provide unique, memorable and delightful food experiences to customers worldwide.
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 1 -->
+
+    <!-- section 2 -->
+    <section class="py-lg-25 py-20 section-2">
+      <!-- desktop view -->
+      <div class="row desktop-view hidden-sm">
+        <div class="col-lg-6 col-sm-12 text-lg-end text-white d-flex align-items-end">
+          <!-- <span class="border border-danger"></span> -->
+          <h4 class="rectangle d-flex align-items-center justify-content-center rebel-primary-text">What is WildFire?
+            </h3>
+            <p class="mt-md-20 rebel-secondary-text">Wildfire is the future of food delivery franchising where we help
+              our partners to grow at a rapid pace by launching internet restaurants across the globe. We provide global
+              brands, technology platforms, process know-how and detailed training to help you run an efficient
+              multi-brand cloud kitchen..</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center">
+          <img class="" src="assets/images/What is wildFire.png">
+        </div>
+      </div>
+
+      <!-- mobile view -->
+      <div class="row mobile-view hidden-lg">
+        <div class="col-lg-6 col-sm-12 text-center">
+          <img class="" src="assets/images/What is wildFire.png">
+        </div>
+        <div class="col-lg-6 col-sm-12 text-lg-end text-white d-flex align-items-end">
+          <!-- <span class="border border-danger"></span> -->
+          <h4 class="rectangle d-flex align-items-center justify-content-center rebel-primary-text ml-20">What is
+            WildFire?</h3>
+            <p class="mt-15 rebel-secondary-text">LWildfire is the future of food delivery franchising where we help our
+              partners to grow at a rapid pace by launching internet restaurants across the globe. We provide global
+              brands, technology platforms, process know-how and detailed training to help you run an efficient
+              multi-brand cloud kitchen.</p>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 -->
+  </div>
+
+  <!-- section 3 -->
+  <section class="section-3 py-lg-25 py-20 section-3">
+    <div class="brands-bg" style="background-image:url('WildFire Export/Images/Group 4871.svg');">
+      <div class="brands-content-width d-flex justify-content-center align-items-center h-100">
+        <div>
+          <div class="d-flex justify-content-center  mb-10">
+            <h3 class="rectangle d-flex align-items-center justify-content-center rebel-primary-text text-white">Our
+              Brands</h3>
+          </div>
+          <div class="row justify-content-center">
+
+            <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+              <a href="https://www.faasos.com/">
+                <img class="brands" src="assets/icons/Group 4650.svg">
+              </a>
+            </div>
+            <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+              <a href="https://www.rebelfoods.com/what-we-do">
+                <img class="brands" src="assets/icons/Group 4838.svg">
+              </a>
+            </div>
+            <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+              <a href="https://www.rebelfoods.com/what-we-do">
+                <img class="brands" src="assets/icons/Group 4839.svg">
+              </a>
+            </div>
+            <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+              <a href="https://www.rebelfoods.com/what-we-do">
+                <img class="brands" src="assets/icons/Group 4840.svg">
+              </a>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+                <a href="https://www.behrouzbiryani.com/">
+                  <img class="brands" src="assets/Icons/Group 4393.svg">
+                </a>
+              </div>
+              <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+                <a href="https://www.mandarinoak.com/">
+                  <img class="brands" src="assets/Icons/Group 4395.svg">
+                </a>
+              </div>
+              <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+                <a href="https://www.ovenstory.in/">
+                  <img class="brands" src="assets/Icons/Group 4404.svg">
+                </a>
+              </div>
+              <div class="col-3 px-lg-15 py-5 py-md-10 py-lg-5 text-center">
+                <a href="https://www.sweettruth.in/">
+                  <img class="brands" src="assets/Icons/Group 4837.svg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us  text-center mt-10">
+        <button type="button" class="btn5 rebel-primary-text px-15   fw-light ">Contact
+          us</button>
+      </div>
+  </section>
+  <!-- section 3 -->
+
+
+
+  <!-- section 4 -->
+  <div class="primary-padding">
+    <section class="section-4 mt-20">
+      <div class="text-center">
+        <h3 class="red-color rebel-primary-text">How does it Works?</h3>
+      </div>
+
+      <div class="timeline desktop-view hidden-sm">
+        <div class="timeline-container d-flex justify-content-between text-white">
+          <div class="t1 w-20 text-center">
+            <div class="t-sub1">
+              <p class="rebel-primary-text fw-light fs-6">You choose the Brand concept based on market insights </p>
+              <img class="" src="assets/images/numbersSvg/1.svg">
+            </div>
+          </div>
+          <div class="t2 w-20 text-center">
+            <div class="t-sub2">
+              <img class="" src="assets/images/numbersSvg/2.svg">
+              <p class="rebel-primary-text fw-light fs-6">We design a menu based on global flavors, localised taste and
+                fusion cuisine
+              </p>
+            </div>
+          </div>
+          <div class="t3 w-20 text-center">
+            <div class="t-sub3">
+              <p class="rebel-primary-text fw-light fs-6">We provide training to launch Internet Restaurants in your
+                existing kitchen </p>
+              <img class="" src="assets/images/numbersSvg/3.svg">
+            </div>
+          </div>
+          <div class="t4 w-20 text-center">
+            <div class="t-sub4">
+              <img class="" src="assets/images/numbersSvg/4.svg">
+              <p class="rebel-primary-text fw-light fs-6">Prepare tasty meals using standardised process driven stepwise
+                approach </p>
+            </div>
+          </div>
+          <div class="t5 w-20 text-center">
+            <div class="t-sub5">
+              <p class="rebel-primary-text fw-light fs-6">Prepare tasty meals using standardised process driven stepwise
+                approach</p>
+              <img class="" src="assets/images/numbersSvg/5.svg">
+            </div>
+          </div>
+          <div class="t6 w-20 text-center">
+            <div class="t-sub6">
+              <img class="" src="assets/images/numbersSvg/6.svg">
+              <p class="rebel-primary-text fw-light fs-6"> Earn additional income without additional overheads </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline mobile-view hidden-lg py-20 px-10">
+        <div class="slider">
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 48651.svg">
+            <p class="rebel-primary-text fw-light fs-6">You choose the Brand concept based on market insights </p>
+
+          </div>
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 4866.svg">
+            <p class="rebel-primary-text fw-light fs-6">We design a menu based on global flavors, localised taste and
+              fusion cuisine </p>
+
+          </div>
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 4867.svg">
+            <p class="rebel-primary-text fw-light fs-6">We provide training to launch Internet Restaurants in your
+              existing kitchen</p>
+
+          </div>
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 4868.svg">
+            <p class="rebel-primary-text fw-light fs-6">Prepare tasty meals using standardised process driven stepwise
+              approach </p>
+
+          </div>
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 4869.svg">
+            <p class="rebel-primary-text fw-light fs-6">We provide Tech support to fulfil online orders in your local
+              areas
+            </p>
+
+          </div>
+          <div class="text-white fs-1 text-center">
+            <img class="" src="assets/Icons/Group 4870.svg">
+            <p class="rebel-primary-text fw-light fs-6">Earn additional income without additional overheads
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- /section4 -->
+
+    <!-- section 5 -->
+    <section class="py-lg-25 py-20 section-5">
+      <!-- desktop view -->
+      <div class="row desktop-view hidden-sm">
+        <div class="col-lg-6 col-sm-12 text-center">
+          <img class="" src="assets/images/img3.PNG">
+        </div>
+        <div class="col-lg-6 col-sm-12 text-lg-end text-white d-flex align-items-end">
+          <!-- <span class="border border-danger"></span> -->
+          <h4 class="rectangle d-flex align-items-center justify-content-center rebel-primary-text">WildFire Expansion
+            </h3>
+            <div class="t-left">
+              <p class="mt-md-20 rebel-secondary-text">Generate additional revenue streams and avenues to grow
+                exponentially with existing resources. We help you achieve new heights with our unique business model
+                and set of values.</p>
+              <button type="button" class="btn5 rebel-primary-text px-15 fw-light ">Download</button>
+            </div>
+        </div>
+      </div>
+
+      <!-- mobile view -->
+      <div class="row mobile-view hidden-lg">
+        <div class="col-lg-6 col-sm-12 text-center">
+          <img class="" src="assets/images/img3.PNG">
+        </div>
+        <div class="col-lg-6 col-sm-12 text-lg-end text-white d-flex align-items-end">
+          <!-- <span class="border border-danger"></span> -->
+          <h4 class="rectangle d-flex align-items-center justify-content-center rebel-primary-text ml-20">What is
+            WildFire?</h3>
+            <div>
+              <p class="mt-15 rebel-secondary-text">Extremely low capital expense required to set-up as we utilize
+                existing infrastructure & capacity </p>
+              <div class="text-center">
+                <button type="button" class="btn5 rebel-primary-text px-15 fw-light  ">Contact us</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 5 -->
+
+
+    <!-- section 6 -->
+    <section class="section-5 pb-lg-25 pb-20">
+      <div class="features desktop-view hidden-sm">
+        <div class="row">
+          <div class="col">
+            <div class="px-10-custom text-center">
+              <img class='features-img' src="./assets/images/featuresPngs/savings.png" alt="minimal capex">
+              <p class="rebel-primary-text red-color mt-6 mb-1">Minimal Capex</p>
+              <p class="rebel-secondary-text text-white">Extremely low capital expense required to set-up as we utilize
+                existing infrastructure & capacity .</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="px-10-custom text-center">
+              <img class='features-img' src="./assets/images/featuresPngs/stonks.png" alt="Market Expertise">
+              <p class="rebel-primary-text red-color mt-6 mb-1">Market Expertise</p>
+              <p class="rebel-secondary-text text-white">Knowledge of market trends, insights & demand-supply gap can be
+                targeted effectively</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="px-10-custom text-center">
+              <img class='features-img' src="./assets/images/featuresPngs/badge.png" alt="Brand Expertise">
+              <p class="rebel-primary-text red-color mt-6 mb-1">Brand Expertise</p>
+              <p class="rebel-secondary-text text-white">Experience of running virtual brands across categories, across
+                geographies with localised taste & offerings
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-15">
+          <div class="col-4">
+            <div class="px-10-custom text-center">
+              <img class='features-img' src="./assets/images/featuresPngs/cloud.png" alt="Extremely Agile">
+              <p class="rebel-primary-text red-color mt-6 mb-1">Extremely Agile</p>
+              <p class="rebel-secondary-text text-white">Operating restaurants over internet helps to adapt swiftly;
+                launching new brands, modifying menu, marketing offers
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="px-10-custom text-center">
+              <img class='features-img' src="./assets/images/featuresPngs/crown.png" alt="Partner is King">
+              <p class="rebel-primary-text red-color mt-6 mb-1">Partner is King</p>
+              <p class="rebel-secondary-text text-white">Everything revolves around the partner. We provide set
+                ready-to-run model to partners where they can earn profit from the very first day
+                .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features mobile-view hidden-lg px-10">
+        <div class="slider">
+          <div class="px-10 text-center">
+            <img class='features-img w-100' src="./assets/images/featuresSvgs/savings.svg" alt="minimal capex">
+            <p class="rebel-primary-text red-color mt-6 mb-1">Minimal Capex</p>
+            <p class="rebel-secondary-text text-white">Extremely low capital expense required to set-up as we utilize
+              existing infrastructure & capacity .</p>
+          </div>
+
+          <div class="px-10 text-center">
+            <img class='features-img w-100' src="./assets/images/featuresSvgs/stonks.svg" alt="Market Expertise">
+            <p class="rebel-primary-text red-color mt-6 mb-1">Market Expertise</p>
+            <p class="rebel-secondary-text text-white">Knowledge of market trends, insights & demand-supply gap can be
+              targeted effectively.</p>
+          </div>
+
+          <div class="px-10 text-center">
+            <img class='features-img w-100' src="./assets/images/featuresSvgs/badge.svg" alt="Brand Expertise">
+            <p class="rebel-primary-text red-color mt-6 mb-1">Brand Expertise</p>
+            <p class="rebel-secondary-text text-white">Experience of running virtual brands across categories, across
+              geographies with localised taste & offerings .</p>
+          </div>
+
+          <div class="px-10 text-center">
+            <img class='features-img w-100' src="./assets/images/featuresSvgs/cloud.svg" alt="Extremely Agile">
+            <p class="rebel-primary-text red-color mt-6 mb-1">Extremely Agile</p>
+            <p class="rebel-secondary-text text-white">Operating restaurants over internet helps to adapt swiftly;
+              launching new brands, modifying menu, marketing offers .</p>
+          </div>
+
+          <div class="px-10 text-center">
+            <img class='features-img w-100' src="./assets/images/featuresSvgs/crown.svg" alt="Partner is King">
+            <p class="rebel-primary-text red-color mt-6 mb-1">Partner is King</p>
+            <p class="rebel-secondary-text text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Labore ratione aliquam deleniti. Repudiandae, error dolorem..</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- section 6 -->
+
+
+    <!-- section 7 -->
+    <section class="py-lg-25 py-20 section-7">
+      <div>
+        <div class="text-center pb-20">
+          <h3 class="red-color rebel-primary-text">Who are we looking to partner with?</h3>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-6 col-lg-3 text-white">
+            <img src="assets/images/partner/food.png" alt="">
+            <p class="pt-10 rebel-primary-text fw-light fs-6 px-0 px-lg-6">Food and Beverage player with a network of
+              restaurants in a geography</p>
+          </div>
+          <div class="col-6 col-lg-3 text-white">
+            <img src="assets/images//partner/person.png" alt="">
+            <p class="pt-10 rebel-primary-text fw-light fs-6 px-0 px-lg-6">Investors who want to enter the Food &
+              Beverage space</p>
+          </div>
+          <div class="col-6 col-lg-3 text-white">
+            <img src="assets/images/partner/cloud.png" alt="">
+            <p class="pt-10 rebel-primary-text fw-light fs-6 px-0 px-lg-6">FCloud Kitchen companies already operating
+              multiple kitchens in a geography ood and Beverage player with a network of
+              restaurants in a geography</p>
+          </div>
+          <div class="col-6 col-lg-3 text-white">
+            <img src="assets/images/partner/delivery.png" alt="">
+            <p class="pt-10 rebel-primary-text fw-light fs-6 px-0 px-lg-6">Food delivery market place who wish to launch
+              concept kitchens with virtual brands</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- section 7 -->
+
+    <!-- section 8 -->
+    <section class="py-lg-25 pb-20 py-20 section-8">
+      <div class="text-center">
+        <h3 class="red-color rebel-primary-text">Why Partner With Rebel?</h3>
+      </div>
+
+      <div class="row align-items-center py-10">
+        <div class="col-12 col-lg-3 text-center">
+          <img src="assets/images/chef.png" alt="">
+        </div>
+        <div class="col-12 col-lg-9">
+          <p class="rebel-primary-text red-color mt-6 mb-1">Cullinary Expertise</p>
+          <ol class="text-white rebel-secondary-text">
+
+
+
+            <li class="py-2">In house Culinary Innovation Centre with a team of Chefs dedicated to meet customer taste.
+            </li>
+            <li class="py-2">Master of dissecting the food preparation process and deskilling the job</li>
+            <li class="py-2"> Kitchen Automation experience to standardize cooking process & ensure 100% product
+              replication.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row align-items-center py-10">
+
+        <div class="col-12 col-lg-3 text-center">
+          <img src="assets/images/blackchef.png" alt="">
+        </div>
+        <div class="col-12 col-lg-9">
+          <p class="rebel-primary-text red-color mt-6 mb-1">Brand Knowledge</p>
+          <ol class="text-white rebel-secondary-text">
+
+
+
+            <li class="py-2">Brand specific menu design, recipes & portion charts</li>
+            <li class="py-2">Training on food preparation (Before Launch theory, before launch practical, on-job
+              practical training)</li>
+            <li class="py-2">Training on key brand processes (Layout, Equipment, Inventory, Food Safety & Hygiene)</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row align-items-center py-10">
+        <div class="col-12 col-lg-3 text-center">
+          <img src="assets/images/fooditem.png" alt="">
+        </div>
+        <div class="col-12 col-lg-9">
+          <p class="rebel-primary-text red-color mt-6 mb-1">Supply Chain network and experience </p>
+          <ol class="text-white rebel-secondary-text">
+            <li class="py-2"> Control over marquee recipes for unique and standardized taste </li>
+            <li class="py-2">Vast experience in managing multiple supply chain models & expertise over what works best
+              for which market</li>
+            <li class="py-2">Full control over value chain to ensure the customer gets unique, memorable and delightful
+              experience with every order.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row align-items-center py-10">
+        <div class="col-12 col-lg-3 text-center">
+          <img src="assets/images/bluechef.png" alt="">
+        </div>
+        <div class="col-12 col-lg-9">
+          <p class="rebel-primary-text red-color mt-6 mb-1">Tech Platform </p>
+          <ol class="text-white rebel-secondary-text">
+
+
+            <li class="py-2">Multi-brand kitchen management system </li>
+            <li class="py-2">Visibility & analysis of daily reports to improve operational metrics.</li>
+            <li class="py-2">Full stack of softwares for all cloud kitchen needs- order management, customer management,
+              inventory management and much more</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row align-items-center py-10">
+        <div class="col-12 col-lg-3 text-center">
+          <img src="assets/images/rebel.png" alt="">
+        </div>
+        <div class="col-12 col-lg-9">
+          <p class="rebel-primary-text red-color mt-6 mb-1">Rebel Ecosystem </p>
+
+          <P class="text-white rebel-secondary-text">You become a part of our Rebel ecosystem where we are continuously
+            innovating to delight our customers with new concepts everyday! </P>
+        </div>
+      </div>
+
+    </section>
+    <!-- section 8 -->
+    <!-- section 9 -->
+    <section class="section-9">
+      <div>
+        <div>
+          <h3 class="red-color text-center rebel-primary-text  mb-10">Success Story</h3>
+        </div>
+        <div class="row  mt-2 mb-2 ">
+          <div class="col-lg-6 text-center mb-lg-0 mb-md-0 mb-10 text-white col-sm-12">
+            <img src="assets/images/sinagapore.PNG" alt="">
+            <h4 class="red-color  mb-lg-5 mt-5 rebel-primary-text">Singapore</h4>
+            <p class='rebel-primary-text px-lg-25 px-10 fw-light fs-6'>Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Id, voluptas?</p>
+            <div class="text-center">
+              <button type="button" class="btn5  rebel-primary-text px-8 fw-light   ">View</button>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center text-white col-sm-12">
+            <img src="assets/images/malasia2.png" alt="">
+            <h4 class="red-color mb-lg-5 mt-5 rebel-primary-text">Malaysia</h4>
+            <p class='rebel-primary-text px-lg-25 px-10 fw-light fs-6'>Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Id, voluptas?</p>
+            <div class="text-center">
+              <button type="button" class="btn5 rebel-primary-text px-8 fw-light   ">View</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /section 9 -->
+    <!-- section-10 -->
+
+    <section class="py-lg-25 py-20 section-10">
+      <div class="contact mt-10">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <h1 class="thakela-biluu outlined-text">Reach Out</h1>
+            <a href="" class="text-white">
+              <p class="fs-5 fw-light rebel-primary-text mb-0">info@rebelfoods.com</p>
+            </a>
+            <p class="text-white rebel-secondary-text fs-5 my-6 pr-lg-20 px-0">2nd Floor , Der Deutsche Parkz, Adjacent
+              to Nahur Railway Station, Subhash Nagar Rd, Industrial Area Bhandup West Mumbai, Maharashtra 400078</p>
+            <div class="d-flex mr-lg-2 text-start">
+              <a href="#!" class="mr-8" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"><img
+                  class="social-icons" src="assets/Icons/facebook.png" alt=""></a>
+              <a href="#!" class="mr-8" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"><img
+                  class="social-icons" src="assets/Icons/instagram.png" alt=""></a>
+              <a href="#!" class="mr-8" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"><img
+                  class="social-icons" src="assets/Icons/twitter.png" alt=""></a>
+              <a href="#!" class="mr-8" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn"><img
+                  class="social-icons" src="assets/Icons/linkedin.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 text-center mt-15 mt-lg-0 mt-md-0">
+            <img class="contact-us-img" src="assets/Icons/telegram.png" alt="Contact us">
+          </div>
+        </div>
+
+        <div class="row my-20">
+          <div class="col-12 col-lg-8">
+            <h3 class="thakela-biluu rebel-primary-text">Let Us Get in Touch with You</h3>
+            <h3 class="text-light rebel-primary-text my-6">Wildfire</h3>
+
+            <div class="mt-10 mt-lg-0 mt-md-0">
+              <form action="#">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="group">
+                      <input class="material-input w-100" type="text" required>
+                      <span class="line1 w-100"></span>
+                      <label>First Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="group">
+                      <input class="material-input w-100" type="text" required>
+                      <span class="line1 w-100"></span>
+                      <label>Last Name</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="group">
+                      <input class="material-input w-100" type="text" required>
+                      <span class="line1 w-100"></span>
+                      <label>Email</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="group">
+                      <input class="material-input w-100" type="text" required>
+                      <span class="line1 w-100"></span>
+                      <label>Phone Number</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group ">
+                  <input class="w-100 material-input" type="text" required>
+                  <span class="line1 w-100"></span>
+                  <label>Comments</label>
+                </div>
+                <div class="text-start">
+                  <button type="submit" class="btns    rebel-primary-text px-10 fw-light   ">Submit
+                    <span class="ml-2">></span></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- /section-10 -->
+  </div>
+  <footer class="footer primary-padding py-20">
+
+    <div class="container">
+      <div class="row  ">
+
+
+        <div class="col-4 col-lg-6">
+          <a class=" " href="#"><img src="assets/Icons/Group 4538.svg"></a>
+        </div>
+
+
+        <div class=" col-8 col-lg-6 text-end ">
+          <!-- <div class=""></div> -->
+            <a href="#!" class="footer-icons" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"><img
+                class="social-icons" src="assets/Icons/facebook.png" alt=""></a>
+            <a href="#!" class="footer-icons" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"><img
+                class="social-icons" src="assets/Icons/instagram.png" alt=""></a>
+            <a href="#!" class="footer-icons" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"><img
+                class="social-icons" src="assets/Icons/twitter.png" alt=""></a>
+            <a href="#!" class="footer-icons" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn"><img
+                class="social-icons" src="assets/Icons/linkedin.png" alt=""></a>
+          <!-- </div> -->
+        </div>
+      </div>
+      <hr class="text-white mt-10">
+      <div class="row footer-content px-2 hidden-sm">
+        <div class="col-2 col-lg-2">
+          <h5 class="">what we do</h5>
+          <a><p>faasos</p></a>
+          <a><p>mandarian oak</p></a>
+          <a><p>sweet truth</p></a>
+          <a><p>Behrouz</p></a>
+          <a><p>Lunch Box</p></a>
+          <a><p>Oven Story</p></a>
+          <a><p>The Good Bowl</p></a>
+          <a><p>The Biryani Life</p></a>
+        </div>
+        <div class="col-2 col-lg-2">
+          <h5 class="">who are we</h5>
+          <a><p>Rebel Team</p></a>
+          <a><p>Working at Rebel</p></a>
+        </div>
+        <div class="col-2 col-lg-2">
+          <h5 class="">Career</h5>
+          <a><p>Join our Team</p></a>
+          <a><p>Job opportunity</p></a>
+        </div>
+        <div class="col-2 col-lg-2">
+          <h5 class="">Partner</h5>
+          <a><p>Franchise</p></a>
+          <a><p>Rebel Launcher</p></a>
+        </div>
+        <div class="col-2 col-lg-2">
+          <h5 class="">News</h5>
+          <a><p>Press Release</p></a>
+          <a><p>Evens</p></a>
+          <a><p>FAQ</p></a>
+        </div>
+        <div class="col-2 col-lg-2">
+          <h5 class="">Rebel Spirit</h5>
+          <h6 class=" footer-content">Contact us</h6>
+          <a>info@rebelfoods.com</a>
+        </div>
+        <div class="marking mt-10  footer-content hidden-sm">
+          <div class="">
+            <div class="d-flex  justify-content-start ">
+              <h6> © 2021 Rebel Foods</h6>
+            <a class="text-decoration-none  ml-4 footer-content"href=""><h6>Privacy policy</h6></a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class=" hidden-lg">
+        <div class="container">
+          <div class="row g-2 footer-content fw-bolder">
+            <div class="col-6 bg-transparent ">
+              <div class=" ">what we do</div>
+              <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Faasos</a></li>
+                <li><a class="dropdown-item" href="#">mandarian oak</a></li>
+                <li><a class="dropdown-item" href="#">Sweet truth</a></li>
+                <li><a class="dropdown-item" href="#">Behrouz</a></li>
+                <li><a class="dropdown-item" href="#">Lunch Box</a></li>
+                <li><a class="dropdown-item" href="#">Oven Story</a></li>
+                <li><a class="dropdown-item" href="#">The Good Bowl</a></li>
+                <li><a class="dropdown-item" href="#">The Biryani Life</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="">Launcher</div>
+            </div>
+            <div class="col-6">
+              <div class=""> Who are we</div>
+            </div>
+            <div class="col-6">
+              <div class=""> Rebel Spirit</div>
+            </div>
+            <div class="col-6">
+              <div class="">  Careers</div>
+              
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Join our Team</a></li>
+                <li><a class="dropdown-item" href="#">Job opportunity</a></li>
+
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="">News</div>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Press Release</a></li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="">Franchise</div>
+            </div>
+            <div class="col-6">
+              <div class="">Contact Us</div>
+              <a class="footer-content fw-light" href="">info@rebelfoods.com</a>
+            </div>
+            <div class="col-6">
+              <div class="">©2021 RebelFoods</div>
+              <div class="">Privacy policy</div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./slick-carousel/slick/slick/slick.min.js"></script>
+  <script src="./app.js"></script>
+
+  <script>
+    jQuery('.slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true
+    });
+  </script>
+</body>
+
+</html>
